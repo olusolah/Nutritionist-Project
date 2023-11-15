@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+}
+ .bottomnav {
+    background-color: #1a3129;
+ }
+
+.pri-bg-col {
+    background-color: #1a3129;
+}
+
+.sec-bg-col {
+    background-color: #234338;
+}
+
+.ter-bg-col {
+    background-color: #cbea7b;
+}
+
+.pri-text-col {
+    color: #1a3129;
+}
+
+.sec-text-col {
+    color: #234338;
+}
+
+.ter-text-col {
+    color: #cbea7b;
+}
+header {
+    position:fixed;
+    top: 0;
+    z-index: 1;
+}
+
+header .topnav {
+    border: 2px solid #2c5446;
+}
+
+header .container-fluid {
+    border-top: 2px solid #234338;
+}
+
+header .bottomnav ul li a {
+    font-size: 14px;
+
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml, %3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30 viewBox='0 0 30 30'%3e%3cpath stroke='rgba(203, 234, 123, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4' 7h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.container-sma {
+    height: 100vh;
+    background-image: radial-gradient(circle, #CBEA7B, rgba(203, 234, 123, 0)) , url(./images/Abstract\ Design.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.container {
+    background-color:#E5F5BD;
+    height:auto;
+    border-radius: 12px;
+    border: 1px solid #E5F5BD;
+    position:relative;
+}
+.container-small {
+    width: 100%;
+}
+
+/*footer*/
+
+.abt-ancor a {
+    text-decoration: none;
+    padding:5px;
+    color: #fff;
+    font-size:10px;
+}
+
+.abt-border {
+    border: 1px solid rgb(85, 83, 83);
+    margin: auto;
+}
+
+.pri-text-col {
+    color: #cbea7b !important;
+}
+
+.btn {
+    background-color: #cbea7b !important;
+}
+
+
+
+
+
+/* Responsiveness for mobile view*/
+ 
+@media screen and (max-width: 790px) {
+    .responsive-container {
+        position:absolute;
+        top: 10%;
+        right:-7%;
+        width: 100vw;
+    }
+
+    .top-nav-text {
+        font-size: 12px;
+    }
+
+    .top-nav-text .arrow {
+        padding-bottom: 10px;
+    }
+
+    .top-bar {
+        position:relative;
+        top: 0;
+        left: 0;
+        padding-top:25px;
+    }
+
+    .top-nav-mobile #left-image-dup {
+        position:absolute;
+        bottom: -1%;
+        left: -19%;
+        z-index: -1;
+        width: 35%;
+    }
+
+    .top-nav-mobile #right-image-dup {
+        position: absolute;
+        bottom: -1%;
+        right: -19%;
+        z-index: -1;
+        width: 35%;
+    }
+
+    .cont-row {
+        width:100vw;
+        margin-left:-2%;
+        margin-top: -40%;
+        position: relative;
+        top: -50%;
+    }
+    .first-pee {
+        font-size:13px;
+    }
+    .first-heading {
+        margin-top: 5px;
+    }
+    .imag {
+        width: 80%;
+        display: block;
+        position: relative;
+        right:40%;
+    }
+
+    .btns {
+        position: relative;
+        top: 45%;
+        padding: 3px 20px;
+        font-size: 11px;
+    }
+    .btn-2 {
+        position: relative;
+        top: 50%;
+        right: 40%;
+        padding: 3px 20px;
+        font-size: 11px;
+        
+    }
+    .topic {
+        font-size: 20px;
+    }
+    .sub-topic {
+        font-size: 18px;
+    }
+    .pee {
+        font-size: 10px;
+    }
+    .container {
+        margin-top: -15%;
+    }
+    .container-2 {
+        margin-top: 5%;
+    }
+}
+
+
+/* Responsiveness for tablet view*/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .header-container {
+        height: 15vh;
+    }
+    .bottomnav {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100vw;
+    }
+    .top-bar {
+        position: relative;
+        top: 0;
+        left: 0;
+        padding-top:25px;
+    }
+    .top-nav-mobile #left-image-dup {
+        position: absolute;
+        bottom: -1%;
+        left: -19%;
+        z-index: -1;
+        width: 35%;
+    }
+
+    .top-nav-mobile #right-image-dup {
+        position: absolute;
+        bottom: -1%;
+        right: -19%;
+        z-index: -1;
+        width: 35%;
+    }
+
+    .cont-row {
+        width: 100vw;
+        margin-left: -2%;
+        margin-top: -4%;
+    }
+    .container-sm {
+        height: 70vh;
+    }
+    .container-tablet {
+        height: 80vh;
+        margin-top: -15%;
+    }
+    .imag {
+        width: 90%;
+        display: block;
+        position: relative;
+        right:18%;
+    }
+    .btns {
+        position: relative;
+        top:7%;
+        padding: 3px 20px;
+        font-size: 12px;
+    }
+    .btn-2 {
+        position: relative;
+        top: 7%;
+        padding: 3px 20px;
+        font-size:12px;
+    }
+    .topic {
+        font-size: 20px;
+    }
+    .sub-topic {
+        font-size: 20px;
+    }
+
+}

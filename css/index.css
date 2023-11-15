@@ -1,0 +1,165 @@
+@import url("./about.css");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+}
+.inv {
+    overflow: hidden;
+}
+header {
+    z-index: 1000;
+    margin-bottom: 600px !important;
+}
+#hero {
+    margin-top: 600px !important;
+  }
+/* global styling */
+.header-color {
+    background-color: #1A3129;
+}
+
+.small-header {
+    background-color: #234338;
+}
+
+.dark-green-15 {
+    text-decoration-color: #1A3129 !important;
+}
+
+.green-70 {
+    background-color: #CBEA7B !important;
+}
+
+.green-90 {
+    background-color: #EEF8D3 !important;
+}
+
+.green-95 {
+    background-color: #F6FBE9 !important;
+}
+
+.grey-15 {
+    text-decoration-color: #262626 !important;
+}
+
+.grey-20 {
+    text-decoration-color: #333333 !important;
+}
+
+.grey-30 {
+    text-decoration-color: #4C4C4D !important;
+}
+.grey-35 {
+    text-decoration-color: #59595A !important;
+}
+/* End global styling */
+
+.hero-btn1 {
+    margin-right: 10px;
+    background-color: #CBEA7B;
+}
+
+.hero-btn2 {
+    background-color: #E5F5BD;
+}
+
+.hero-capsule {
+    padding: 1px 1px 1px 1px;
+    margin: 1px 1px 1px 1px;
+    width: 26%;
+}
+
+.hero-text h6, h1 {
+    color: #1A3129;
+}
+
+.hero-text p {
+    color: #333333;
+}
+
+/* feature styling */
+
+.card-body {
+    background-color: #F6FBE9;
+}
+
+/* swiper css */
+.swiper {
+    width: 100%;
+    height: auto;
+}
+
+.ht-icon {
+    width: 30px;
+} 
+ 
+.swiper-slide p {
+    font-size: 10px;
+}
+
+.swiper-button-prev {
+    margin-top: 100px;
+    padding-left: 470px;
+}
+
+.swiper-button-next {
+    margin-top: 100px;
+    padding-right: 470px;
+}
+
+.sample-slider .swiper-pagination-bullet .swiper-button-next .swiper-button-prev {
+    background-color: #356554 ;
+}
+ 
+.w {
+    width: 35%;
+    border-bottom: 2px solid #CBEA7B;
+}
+.foot {
+    margin-top: 100px;
+}
+.bush {
+    color: #333333 !important;
+}
+
+body {
+    overflow-x: hidden;
+}
+@media screen and (max-width: 426px) {
+    .top-nav-text {
+      font-size: 12px;
+    }
+  header {
+    margin: 0;
+  }
+    .top-nav-text .arrow {
+      padding-bottom: 10px;
+    }
+  
+    .top-bar {
+      position: relative;
+      top: 0;
+      left: 0;
+      padding-top: 25px;
+    }
+  
+    .top-nav-mobile #left-image-dup {
+      position: absolute;
+      bottom: -1%;
+      left: -19%;
+      z-index: -1;
+      width: 35%;
+    }
+  
+    .top-nav-mobile #right-image-dup {
+      position: absolute;
+      bottom: -1%;
+      right: -19%;
+      z-index: -1;
+      width: 35%;
+    }
+  }
+ 

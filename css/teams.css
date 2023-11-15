@@ -1,0 +1,452 @@
+@import url("./about.css");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Urbanist", sans-serif;
+}
+header {
+    z-index: 2000;
+    margin: 0;
+}
+.pri-bg-col {
+    background-color: #1a3129;
+  }
+  
+  .sec-bg-col {
+    background-color: #234338;
+  }
+  
+  .ter-bg-col {
+    background-color: #cbea7b;
+  }
+  
+  .pri-text-col {
+    color: #1a3129;
+  }
+  .foot {
+    margin-top: 100px;
+  }
+  
+  .sec-text-col {
+    color: #234338;
+  }
+  
+  .ter-text-col {
+    color: #cbea7b;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+  }
+  
+  header .topnav {
+    border: 2px solid #2c5446;
+  }
+  
+  header .container-fluid {
+    border-top: 2px solid #234338;
+  }
+  
+  header .bottomnav ul li a {
+    font-size: 14px;
+  }
+  
+  .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(203, 234, 123, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+  
+  @media screen and (max-width: 426px) {
+    .top-nav-text {
+      font-size: 12px;
+    }
+  header {
+    margin: 0;
+  }
+    .top-nav-text .arrow {
+      padding-bottom: 10px;
+    }
+  
+    .top-bar {
+      position: relative;
+      top: 0;
+      left: 0;
+      padding-top: 25px;
+    }
+  
+    .top-nav-mobile #left-image-dup {
+      position: absolute;
+      bottom: -1%;
+      left: -19%;
+      z-index: -1;
+      width: 35%;
+    }
+  
+    .top-nav-mobile #right-image-dup {
+      position: absolute;
+      bottom: -1%;
+      right: -19%;
+      z-index: -1;
+      width: 35%;
+    }
+  }
+  html,
+  body {
+    overflow-x: hidden;
+  }
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 180px;
+}
+.first {
+    width:80%;
+    height: 65vh;
+    background: linear-gradient(0deg, #F7FCE9, #F7FCE9);
+    border: 1px solid #E5F5BD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+    border-radius: 12px 12px 0px 0px;
+}
+main .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/Abstract\ Design\ \(2\).png");
+    background-position: center;
+    height: 250px;
+    width: 50%;
+}
+.first .text {
+    text-align: center;
+    width: 80%;
+}
+.first .text h1 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.first .text p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.fir-sub {
+    width: 80%;
+    height: 100px;
+    background-color: #234338;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.firt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+    padding-top: 20px;
+}
+.fir-sub p {
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+
+}
+.hub {
+    background-color: #2C5446;
+    height: 50px;
+    width: 160px;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #356554;
+}
+.cont {
+    width: 80%;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.team {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.card {
+    position: relative;
+    padding: 0;
+    border-radius: 12px;
+    border: none;
+    background-color: transparent;
+}
+.team .card .label {
+    position: absolute;
+    background-color: #F6FBE9;
+    top: 225px;
+    left: 0;
+    width: 85%;
+    border-radius: 0px 20px 0px 0px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5px;
+}
+.team .card .label .nam {
+    font-weight: 600;
+    font-size: 18px;
+}
+.team.card .label .rol {
+    font-weight: 500;
+}
+.cta {
+    width: 80%;
+    background: linear-gradient(0deg, #E5F5BD, #E5F5BD),
+linear-gradient(0deg, #F7FCE9, #F7FCE9);
+    margin-top: 120px;
+    height: 330px;
+    margin-bottom: 100px;
+}
+.crc {
+    display: flex;
+    align-self: flex-end;
+   justify-content: flex-end;
+   width: 100%;
+}
+.bod {
+    width: 100%;
+    gap: 10%;
+}
+.tex h1 {
+font-size: 26px;
+font-weight: 600;
+line-height: 39px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.tex {
+    width: 70%;
+    padding-left: 80px;
+}
+.tex p {
+    font-size: 13px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.butn a{
+    width: 20%;
+    background-color: #CBEA7B;
+    padding: 17px 20px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    border-radius: 6px;
+font-size: 14px;
+font-weight: 600;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+footer {
+    height: 20vh;
+    width: 100%;
+    color: #1A3129;
+}
+
+
+
+
+
+@media screen and (min-width: 300px) and (max-width: 430px) {
+    .first .logo img {
+        height: 60px;
+    }
+    .first .text p {
+        font-size: 12px;
+        line-height: 21px;
+    }
+    main .logo {
+        height: 130px;
+        margin-top: 0;
+        padding: 0;
+    }
+    .first .text {
+        width: 90%;
+    }
+   .first .text h1 {
+        font-size: 26px;
+        padding-bottom: 10px;
+        line-height: 42px;
+        text-align: center;
+    }
+    .cont {
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+    .cont p {
+        font-size: 12px;
+    }
+    .fir-sub {
+        gap: 0.2rem;
+    }
+    .hide {
+        display: none;
+    }
+    .card {
+        margin-bottom: 100px;
+        width: 100%;
+    }
+    .card img {
+        width: 300px;
+    }
+    .team .card .label {
+        top: 270px;
+        width: 90%;
+    }
+    .cta {
+        margin-top: 70px;
+        gap: 0;
+        height: 290px;
+        overflow: hidden;
+    }
+    .bod {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+    .tex,
+    .butn {
+        width: 90%;
+    }
+    .tex {
+        padding-left: 10px;
+    }
+    .tex h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .tex p {
+        font-size: 12px;
+        line-height: 17px;
+        text-align: center;
+    }
+    .zg img {
+        height: 50px;
+    }
+    .crc img  {
+        height: 60px;
+    }
+    .butn {
+        width: 100%;
+        z-index: 100;
+    }
+    .butn a {
+        padding: 17px 90px;
+    }
+}
+
+
+.abt-img{
+    background-image: url(./img/Image\ \(10\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    width: 100%;
+    margin: auto;
+}
+.text-align-right{
+    text-align: right;
+}
+/* text sizes */
+.text-16{
+    font-size: 16px !important;
+}
+.text-46{
+    font-size: 46px !important;
+}
+.text-26{
+    font-size: 26px !important;
+}
+.text-22{
+    font-size: 22px !important;
+}
+.text-32{
+    font-size: 32px !important;
+}
+/* footer css */
+.abt-bg-footer1{
+    background-color: #1a3129 ;
+}
+.abt-bg-footer2{
+    background-color: #234338;
+} 
+.abt-ancor a{
+    text-decoration: none;
+    padding: 5px;
+    color: #fff;
+    font-size: 10px;
+}
+.abt-border{
+    border: 1px solid rgb(85, 83, 83);
+    width: 100%;
+    margin: auto;
+}
+.pri-text-col{
+    color: #cbea7b !important;
+}
+.btn{
+    background-color: #cbea7b !important;
+}
+.abt-bg{
+    background-color: #f6fbe9;
+}
+.abt-company-height{
+    height: 30vh !important;
+}
+.border-right{
+    border-right: 3px solid #cbea7b;
+}
+.border-left{
+    border-left: 3px solid #cbea7b;
+}
+.w{
+    width: 80%;
+    border-bottom: #cbea7b 4px solid;
+}
+.wl{
+    width: 80%;
+    border-bottom: #cbea7b 4px solid;
+    display: flex;
+    justify-content: fl;
+    align-items: self-end;
+}
